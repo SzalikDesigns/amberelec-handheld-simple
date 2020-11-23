@@ -6,13 +6,13 @@ author:         Trevor Suarez (Rican7)
 <theme>
   <formatVersion>7</formatVersion>
   <subset name="helpsystem" displayName="Help Icons">
+    <include name="standard" displayName="Standard"/>
     <include name="snes">./_inc/help-icons-snes.xml</include>
     <include name="arcade">./_inc/help-icons-arcade.xml</include>
     <include name="psx">./_inc/help-icons-psx.xml</include>
     <include name="snesalt">./_inc/help-icons-snesalt.xml</include>
     <include name="xbox">./_inc/help-icons-xbox.xml</include>
     <include name="xboxone">./_inc/help-icons-xboxone.xml</include>
-    <include name="standard" displayName="Standard"/>
   </subset>
   <variables>
     <colorBlack>060606</colorBlack>
