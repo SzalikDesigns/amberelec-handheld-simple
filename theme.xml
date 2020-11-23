@@ -150,6 +150,9 @@ author:         Trevor Suarez (Rican7)
       <path>./_inc/consoles/${system.theme}-${lang}.svg</path>
       <tile>false</tile>
     </image>
+    <image name="system_image" extra="true" ifHelpPrompts="false">
+      <maxSize>1 0.50</maxSize>
+    </image>
     <carousel name="systemcarousel">
       <type>horizontal</type>
       <size>1 0.20</size>
@@ -160,6 +163,9 @@ author:         Trevor Suarez (Rican7)
       <logoScale>1.2</logoScale>
       <scrollSound>${soundScroll}</scrollSound>
       <systemInfoDelay>500</systemInfoDelay>
+    </carousel>
+    <carousel name="systemcarousel" ifHelpPrompts="false">
+      <pos>0 0.70</pos>
     </carousel>
     <text name="logoText">
       <size>0 0</size>
@@ -189,6 +195,9 @@ author:         Trevor Suarez (Rican7)
       <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.05</fontSize>
       <color>${colorBase}</color>
+    </text>
+    <text name="systemInfo" ifHelpPrompts="false">
+      <pos>0 0.9</pos>
     </text>
   </view>
   <view name="basic">
@@ -230,6 +239,9 @@ author:         Trevor Suarez (Rican7)
       <selectedColor>${colorWhite}</selectedColor>
       <scrollSound>${soundScroll}</scrollSound>
     </textlist>
+    <textlist name="gamelist" ifHelpPrompts="false">
+      <size>0.96 0.75</size>
+    </textlist>
   </view>
   <view name="detailed, video">
     <image name="background" extra="true">
@@ -270,6 +282,9 @@ author:         Trevor Suarez (Rican7)
       <selectedColor>${colorWhite}</selectedColor>
       <scrollSound>${soundScroll}</scrollSound>
     </textlist>
+    <textlist name="gamelist" ifHelpPrompts="false">
+      <size>0.60 0.75</size>
+    </textlist>
     <image name="details_background" extra="true">
       <size>0.36 0.80</size>
       <origin>0.5 0</origin>
@@ -277,6 +292,9 @@ author:         Trevor Suarez (Rican7)
       <zIndex>20</zIndex>
       <path>${imageBlank}</path>
       <color>${colorGrayVeryDark}${opacity60P}</color>
+    </image>
+    <image name="details_background" extra="true" ifHelpPrompts="false">
+      <size>0.36 0.875</size>
     </image>
     <text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
       <visible>false</visible>
@@ -348,6 +366,9 @@ author:         Trevor Suarez (Rican7)
       <origin>0 0</origin>
       <pos>0.64 0.595</pos>
     </text>
+    <text name="md_description" ifHelpPrompts="false">
+      <size>0.32 0.36</size>
+    </text>
   </view>
   <view name="detailed">
     <image name="md_image">
@@ -403,6 +424,9 @@ author:         Trevor Suarez (Rican7)
       <centerSelection>false</centerSelection>
       <animateSelection>false</animateSelection>
       <scrollSound>${soundScroll}</scrollSound>
+    </imagegrid>
+    <imagegrid name="gamegrid" ifHelpPrompts="false">
+      <size>1 0.725</size>
     </imagegrid>
     <gridtile name="default">
       <padding>5 5</padding>
