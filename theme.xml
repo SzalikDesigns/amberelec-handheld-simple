@@ -44,18 +44,21 @@ author:         Trevor Suarez (Rican7)
   </variables>
   <view name="screen">
     <text name="clock">
-      <size>0.10 0.058</size>
+      <size>0.08 0.075</size>
       <origin>0 0</origin>
-      <pos>0.02 0.0125</pos>
+      <pos>0.02 0</pos>
+      <padding>0 0 0 0</padding>
       <alignment>left</alignment>
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.035</fontSize>
+      <fontSize>0.034</fontSize>
       <color>${colorGray}</color>
     </text>
     <batteryIndicator name="batteryIndicator">
-      <size>0.065 0.065</size>
-      <pos>0.925 0.0125</pos>
+      <size>0.065 0.060</size>
+      <pos>0.925 0.0075</pos>
+      <horizontalAlignment>right</horizontalAlignment>
+      <itemSpacing>0.010</itemSpacing>
       <full>./_inc/icons/screen-battery-full.svg</full>
       <at75>./_inc/icons/screen-battery-75.svg</at75>
       <at50>./_inc/icons/screen-battery-50.svg</at50>
@@ -65,10 +68,10 @@ author:         Trevor Suarez (Rican7)
       <color>${colorGray}</color>
     </batteryIndicator>
     <controllerActivity name="controllerActivity">
-      <size>0.175 0.045</size>
-      <pos>0.11 0.0225</pos>
-      <itemSpacing>0.005</itemSpacing>
+      <size>0.175 0.040</size>
+      <pos>0.09 0.015</pos>
       <horizontalAlignment>left</horizontalAlignment>
+      <itemSpacing>0.010</itemSpacing>
       <imagePath>./_inc/icons/screen-gamepad.svg</imagePath>
       <color>${colorGray}</color>
       <activityColor>${colorGrayLight}</activityColor>
