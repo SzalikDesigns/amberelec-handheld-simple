@@ -65,6 +65,7 @@ author:         Trevor Suarez (Rican7)
       <at25>./_inc/icons/screen-battery-25.svg</at25>
       <empty>./_inc/icons/screen-battery-empty.svg</empty>
       <incharge>./_inc/icons/screen-battery-incharge.svg</incharge>
+      <networkIcon>./_inc/icons/screen-network.svg</networkIcon>
       <color>${colorGray}</color>
     </batteryIndicator>
     <controllerActivity name="controllerActivity">
