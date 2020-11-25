@@ -214,9 +214,11 @@ author:         Trevor Suarez (Rican7)
       <tile>true</tile>
     </image>
     <image name="logo">
-      <maxSize>0.9 0.08</maxSize>
+      <maxSize>0.9 0.10</maxSize>
       <origin>0.5 0.5</origin>
-      <pos>0.5 0.165</pos>
+      <pos>0.5 0.15</pos>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
       <!-- try png -->
       <path>./_inc/logos/${system.theme}.png</path>
       <!-- try svg -->
@@ -229,14 +231,14 @@ author:         Trevor Suarez (Rican7)
       <path>./_inc/logos/${system.theme}-${lang}.svg</path>
     </image>
     <textlist name="gamelist">
-      <size>0.96 0.65</size>
+      <size>0.96 0.675</size>
       <origin>0.5 0</origin>
-      <pos>0.5 0.25</pos>
+      <pos>0.5 0.225</pos>
       <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.035</fontSize>
       <alignment>center</alignment>
       <horizontalMargin>0.020</horizontalMargin>
-      <lineSpacing>1.6</lineSpacing>
+      <lineSpacing>1.385</lineSpacing>
       <primaryColor>${colorGrayMidLight}</primaryColor>
       <secondaryColor>${colorGrayMidDark}</secondaryColor>
       <selectorColor>${colorBaseDark}</selectorColor>
@@ -245,6 +247,7 @@ author:         Trevor Suarez (Rican7)
     </textlist>
     <textlist name="gamelist" ifHelpPrompts="false">
       <size>0.96 0.75</size>
+      <lineSpacing>1.42</lineSpacing>
     </textlist>
   </view>
   <view name="detailed, video">
@@ -257,9 +260,11 @@ author:         Trevor Suarez (Rican7)
       <tile>true</tile>
     </image>
     <image name="logo">
-      <maxSize>0.56 0.08</maxSize>
+      <maxSize>0.56 0.10</maxSize>
       <origin>0 0.5</origin>
-      <pos>0.020 0.165</pos>
+      <pos>0.020 0.15</pos>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
       <!-- try png -->
       <path>./_inc/logos/${system.theme}.png</path>
       <!-- try svg -->
@@ -272,14 +277,14 @@ author:         Trevor Suarez (Rican7)
       <path>./_inc/logos/${system.theme}-${lang}.svg</path>
     </image>
     <textlist name="gamelist">
-      <size>0.60 0.65</size>
+      <size>0.60 0.675</size>
       <origin>0 0</origin>
-      <pos>0 0.25</pos>
+      <pos>0 0.225</pos>
       <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.035</fontSize>
       <alignment>left</alignment>
       <horizontalMargin>0.020</horizontalMargin>
-      <lineSpacing>1.6</lineSpacing>
+      <lineSpacing>1.385</lineSpacing>
       <primaryColor>${colorGrayMidLight}</primaryColor>
       <secondaryColor>${colorGrayMidDark}</secondaryColor>
       <selectorColor>${colorBaseDark}</selectorColor>
@@ -288,6 +293,7 @@ author:         Trevor Suarez (Rican7)
     </textlist>
     <textlist name="gamelist" ifHelpPrompts="false">
       <size>0.60 0.75</size>
+      <lineSpacing>1.42</lineSpacing>
     </textlist>
     <image name="details_background" extra="true">
       <size>0.36 0.80</size>
@@ -404,9 +410,11 @@ author:         Trevor Suarez (Rican7)
       <tile>true</tile>
     </image>
     <image name="logo">
-      <maxSize>0.9 0.08</maxSize>
+      <maxSize>0.9 0.10</maxSize>
       <origin>0.5 0.5</origin>
-      <pos>0.5 0.165</pos>
+      <pos>0.5 0.15</pos>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
       <!-- try png -->
       <path>./_inc/logos/${system.theme}.png</path>
       <!-- try svg -->
@@ -419,8 +427,8 @@ author:         Trevor Suarez (Rican7)
       <path>./_inc/logos/${system.theme}-${lang}.svg</path>
     </image>
     <imagegrid name="gamegrid">
-      <size>1 0.65</size>
-      <pos>0 0.25</pos>
+      <size>1 0.675</size>
+      <pos>0 0.225</pos>
       <margin>0.02 0.02</margin>
       <padding>0.02 0 0.02 0</padding>
       <autoLayout>4 2</autoLayout>
@@ -430,7 +438,7 @@ author:         Trevor Suarez (Rican7)
       <scrollSound>${soundScroll}</scrollSound>
     </imagegrid>
     <imagegrid name="gamegrid" ifHelpPrompts="false">
-      <size>1 0.725</size>
+      <size>1 0.75</size>
     </imagegrid>
     <gridtile name="default">
       <padding>5 5</padding>
