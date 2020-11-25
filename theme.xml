@@ -197,7 +197,7 @@ author:         Trevor Suarez (Rican7)
       <pos>0 0.8</pos>
       <alignment>center</alignment>
       <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.05</fontSize>
+      <fontSize>0.0425</fontSize>
       <color>${colorBase}</color>
     </text>
     <text name="systemInfo" ifHelpPrompts="false">
