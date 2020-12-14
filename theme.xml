@@ -5,6 +5,16 @@ author:         Trevor Suarez (Rican7)
 -->
 <theme>
   <formatVersion>7</formatVersion>
+  <subset name="colorset" displayName="Color Scheme">
+    <include name="blue" displayName="Blue">./inc/color-scheme-blue.xml</include>
+    <include name="red" displayName="Red">./inc/color-scheme-red.xml</include>
+    <include name="green" displayName="Green">./inc/color-scheme-green.xml</include>
+    <include name="yellow" displayName="Yellow">./inc/color-scheme-yellow.xml</include>
+    <include name="orange" displayName="Orange">./inc/color-scheme-orange.xml</include>
+    <include name="teal" displayName="Teal">./inc/color-scheme-teal.xml</include>
+    <include name="pink" displayName="Pink">./inc/color-scheme-pink.xml</include>
+    <include name="purple" displayName="Purple">./inc/color-scheme-purple.xml</include>
+  </subset>
   <subset name="helpsystem" displayName="Help Icons">
     <include name="standard" displayName="Standard"/>
     <include name="snes">./inc/help-icons-snes.xml</include>
@@ -23,12 +33,6 @@ author:         Trevor Suarez (Rican7)
     <colorGrayMidDark>666666</colorGrayMidDark>
     <colorGrayMidLight>bbbbbb</colorGrayMidLight>
     <colorGrayLight>dddddd</colorGrayLight>
-    <colorBase>0000dd</colorBase>
-    <colorBaseDark>0000bb</colorBaseDark>
-    <colorBaseLight>0000fb</colorBaseLight>
-    <colorBaseNeutral>2222dd</colorBaseNeutral>
-    <colorBaseNeutralDark>2222bb</colorBaseNeutralDark>
-    <colorBaseNeutralLight>2222fb</colorBaseNeutralLight>
     <colorNone>00000000</colorNone>
     <opacity0P>00</opacity0P>
     <opacity20P>33</opacity20P>
