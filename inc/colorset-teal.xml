@@ -8,5 +8,6 @@
     <colorBaseNeutral>22dddd</colorBaseNeutral>
     <colorBaseNeutralDark>22bbbb</colorBaseNeutralDark>
     <colorBaseNeutralLight>22fbfb</colorBaseNeutralLight>
+    <colorNeutralContrast>${colorBlack}</colorNeutralContrast>
   </variables>
 </theme>

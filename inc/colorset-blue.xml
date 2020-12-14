@@ -8,5 +8,6 @@
     <colorBaseNeutral>2222dd</colorBaseNeutral>
     <colorBaseNeutralDark>2222bb</colorBaseNeutralDark>
     <colorBaseNeutralLight>2222fb</colorBaseNeutralLight>
+    <colorNeutralContrast>${colorWhite}</colorNeutralContrast>
   </variables>
 </theme>

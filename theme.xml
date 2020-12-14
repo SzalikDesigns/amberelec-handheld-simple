@@ -33,6 +33,7 @@ author:         Trevor Suarez (Rican7)
     <colorGrayMidDark>666666</colorGrayMidDark>
     <colorGrayMidLight>bbbbbb</colorGrayMidLight>
     <colorGrayLight>dddddd</colorGrayLight>
+    <colorNeutralContrast>${colorWhite}</colorNeutralContrast>
     <colorNone>00000000</colorNone>
     <opacity0P>00</opacity0P>
     <opacity20P>33</opacity20P>
@@ -100,7 +101,7 @@ author:         Trevor Suarez (Rican7)
       <color>${colorGrayMidLight}</color>
       <separatorColor>${colorBlack}</separatorColor>
       <selectorColor>${colorBaseDark}</selectorColor>
-      <selectedColor>${colorWhite}</selectedColor>
+      <selectedColor>${colorNeutralContrast}</selectedColor>
     </menuText>
     <menuTextSmall name="menutextsmall">
       <fontPath>./assets/fonts/Roboto-Medium.ttf</fontPath>
@@ -246,7 +247,7 @@ author:         Trevor Suarez (Rican7)
       <primaryColor>${colorGrayMidLight}</primaryColor>
       <secondaryColor>${colorGrayMidDark}</secondaryColor>
       <selectorColor>${colorBaseDark}</selectorColor>
-      <selectedColor>${colorWhite}</selectedColor>
+      <selectedColor>${colorNeutralContrast}</selectedColor>
       <scrollSound>${soundScroll}</scrollSound>
     </textlist>
     <textlist name="gamelist" ifHelpPrompts="false">
@@ -292,7 +293,7 @@ author:         Trevor Suarez (Rican7)
       <primaryColor>${colorGrayMidLight}</primaryColor>
       <secondaryColor>${colorGrayMidDark}</secondaryColor>
       <selectorColor>${colorBaseDark}</selectorColor>
-      <selectedColor>${colorWhite}</selectedColor>
+      <selectedColor>${colorNeutralContrast}</selectedColor>
       <scrollSound>${soundScroll}</scrollSound>
     </textlist>
     <textlist name="gamelist" ifHelpPrompts="false">
@@ -465,7 +466,7 @@ author:         Trevor Suarez (Rican7)
     </text>
     <text name="gridtile:selected">
       <backgroundColor>${colorBaseDark}</backgroundColor>
-      <color>${colorWhite}</color>
+      <color>${colorNeutralContrast}</color>
     </text>
   </view>
   <view name="menu, system, basic, detailed, video, grid" ifHelpPrompts="true">

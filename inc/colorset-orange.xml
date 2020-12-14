@@ -8,5 +8,6 @@
     <colorBaseNeutral>dd6f22</colorBaseNeutral>
     <colorBaseNeutralDark>bb5e22</colorBaseNeutralDark>
     <colorBaseNeutralLight>fb7e22</colorBaseNeutralLight>
+    <colorNeutralContrast>${colorBlack}</colorNeutralContrast>
   </variables>
 </theme>
