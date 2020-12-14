@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="menu, system, basic, detailed, video, grid">
+    <helpsystem name="help">
+      <iconUpDown>./../assets/icons/help-icon-arcade-updown.png</iconUpDown>
+      <iconLeftRight>./../assets/icons/help-icon-arcade-leftright.png</iconLeftRight>
+      <iconUpDownLeftRight>./../assets/icons/help-icon-arcade-all.png</iconUpDownLeftRight>
+      <iconA>./../assets/icons/help-icon-arcade-a.png</iconA>
+      <iconB>./../assets/icons/help-icon-arcade-b.png</iconB>
+      <iconX>./../assets/icons/help-icon-arcade-x.png</iconX>
+      <iconY>./../assets/icons/help-icon-arcade-y.png</iconY>
+      <iconL>./../assets/icons/help-icon-arcade-l.png</iconL>
+      <iconR>./../assets/icons/help-icon-arcade-r.png</iconR>
+      <iconStart>./../assets/icons/help-icon-arcade-start.png</iconStart>
+      <iconSelect>./../assets/icons/help-icon-arcade-select.png</iconSelect>
+    </helpsystem>
+  </view>
+</theme>
