@@ -6,23 +6,23 @@ author:         Trevor Suarez (Rican7)
 <theme>
   <formatVersion>7</formatVersion>
   <subset name="colorset" displayName="Color Scheme">
-    <include name="blue" displayName="Blue">./inc/color-scheme-blue.xml</include>
-    <include name="red" displayName="Red">./inc/color-scheme-red.xml</include>
-    <include name="green" displayName="Green">./inc/color-scheme-green.xml</include>
-    <include name="yellow" displayName="Yellow">./inc/color-scheme-yellow.xml</include>
-    <include name="orange" displayName="Orange">./inc/color-scheme-orange.xml</include>
-    <include name="teal" displayName="Teal">./inc/color-scheme-teal.xml</include>
-    <include name="pink" displayName="Pink">./inc/color-scheme-pink.xml</include>
-    <include name="purple" displayName="Purple">./inc/color-scheme-purple.xml</include>
+    <include name="blue" displayName="Blue">./inc/colorset-blue.xml</include>
+    <include name="red" displayName="Red">./inc/colorset-red.xml</include>
+    <include name="green" displayName="Green">./inc/colorset-green.xml</include>
+    <include name="yellow" displayName="Yellow">./inc/colorset-yellow.xml</include>
+    <include name="orange" displayName="Orange">./inc/colorset-orange.xml</include>
+    <include name="teal" displayName="Teal">./inc/colorset-teal.xml</include>
+    <include name="pink" displayName="Pink">./inc/colorset-pink.xml</include>
+    <include name="purple" displayName="Purple">./inc/colorset-purple.xml</include>
   </subset>
-  <subset name="helpsystem" displayName="Help Icons">
+  <subset name="iconset" displayName="Icons">
     <include name="standard" displayName="Standard"/>
-    <include name="snes">./inc/help-icons-snes.xml</include>
-    <include name="arcade">./inc/help-icons-arcade.xml</include>
-    <include name="psx">./inc/help-icons-psx.xml</include>
-    <include name="snesalt">./inc/help-icons-snesalt.xml</include>
-    <include name="xbox">./inc/help-icons-xbox.xml</include>
-    <include name="xboxone">./inc/help-icons-xboxone.xml</include>
+    <include name="arcade" displayName="Arcade">./inc/iconset-arcade.xml</include>
+    <include name="snes" displayName="SNES">./inc/iconset-snes.xml</include>
+    <include name="snesalt" displayName="SNES (ALT)">./inc/iconset-snesalt.xml</include>
+    <include name="psx" displayName="PlayStation (PS1)">./inc/iconset-psx.xml</include>
+    <include name="xbox" displayName="Xbox">./inc/iconset-xbox.xml</include>
+    <include name="xboxone" displayName="Xbox One">./inc/iconset-xboxone.xml</include>
   </subset>
   <variables>
     <colorBlack>060606</colorBlack>
