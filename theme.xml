@@ -298,7 +298,7 @@ author:         Trevor Suarez (Rican7)
     <rating name="md_rating">
       <visible>false</visible>
     </rating>
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
       <size>0.16 0.025</size>
       <alignment>left</alignment>
       <fontPath>./assets/fonts/Roboto-Medium.ttf</fontPath>
@@ -314,7 +314,7 @@ author:         Trevor Suarez (Rican7)
       <color>${colorGrayMidLight}</color>
       <forceUppercase>false</forceUppercase>
     </text>
-    <datetime name="md_releasedate, md_lastplayed">
+    <datetime name="md_releasedate, md_lastplayed, md_gametime">
       <size>0.16 0.025</size>
       <alignment>right</alignment>
       <fontPath>./assets/fonts/Roboto-Light.ttf</fontPath>
@@ -336,11 +336,15 @@ author:         Trevor Suarez (Rican7)
     </text>
     <text name="md_lbl_lastplayed">
       <origin>0 0</origin>
-      <pos>0.64 0.50</pos>
+      <pos>0.64 0.500</pos>
+    </text>
+    <text name="md_lbl_gametime">
+      <origin>0 0</origin>
+      <pos>0.64 0.535</pos>
     </text>
     <text name="md_lbl_playcount">
       <origin>0 0</origin>
-      <pos>0.64 0.535</pos>
+      <pos>0.64 0.570</pos>
     </text>
     <datetime name="md_releasedate">
       <origin>1 0</origin>
@@ -350,14 +354,18 @@ author:         Trevor Suarez (Rican7)
       <origin>1 0</origin>
       <pos>0.96 0.50</pos>
     </datetime>
-    <text name="md_playcount">
+    <text name="md_gametime">
       <origin>1 0</origin>
       <pos>0.96 0.535</pos>
     </text>
+    <text name="md_playcount">
+      <origin>1 0</origin>
+      <pos>0.96 0.570</pos>
+    </text>
     <text name="md_description">
-      <size>0.32 0.285</size>
+      <size>0.32 0.250</size>
       <origin>0 0</origin>
-      <pos>0.64 0.595</pos>
+      <pos>0.64 0.635</pos>
     </text>
     <text name="md_description" ifHelpPrompts="false">
       <size>0.32 0.36</size>
